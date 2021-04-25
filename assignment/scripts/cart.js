@@ -42,8 +42,11 @@ console.log(listItems(basket));
 // have empty reset the basket to an empty array
 
 function empty(){
-  basket.pop();
+  basket = [];
 }
+
+empty();
+console.log(basket);
 
 // NEEDS MORE WORK
 
